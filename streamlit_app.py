@@ -40,8 +40,8 @@ st.write("Upload your resume and optionally specify a target role. Gemini 2.5 Fl
 # ---------------------------------------------------------
 with st.sidebar:
     st.header("⚙️ Configuration")
-    google_key = st.text_input("Gemini / Google API Key", type="password", value=os.getenv("GEMINI_API_KEY", ""))
-    tavily_key = st.text_input("Tavily Search API Key", type="password", value=os.getenv("TAVILY_API_KEY", ""))
+    google_key = st.text_input("Gemini / Google API Key", type="password")    #, value=os.getenv("GEMINI_API_KEY", ""))
+    tavily_key = st.text_input("Tavily Search API Key", type="password")    #, value=os.getenv("TAVILY_API_KEY", ""))
     
     if google_key:
         os.environ["GEMINI_API_KEY"] = google_key
