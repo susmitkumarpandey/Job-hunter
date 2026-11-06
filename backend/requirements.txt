@@ -1,0 +1,24 @@
+# Web Framework & API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Data Validation & Config
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.0
+
+# AI & Orchestration
+langchain>=0.2.0
+langgraph>=0.1.0
+langchain-google-genai>=1.0.0
+langchain-community>=0.2.0
+tavily-python>=0.3.0
+
+# Document Parsing
+pdfplumber>=0.11.0
+python-docx>=1.1.0
+
+# Streamlit MVP UI
+streamlit>=1.35.0
+pandas>=2.0.0
